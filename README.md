@@ -1,8 +1,9 @@
 # Redux Thunk
 
-## Component Hierarchy 
+## Component Hierarchy
+```
 App
-  |-- Navbar 
+  |-- Navbar
   |-- About
   |-- PaintingsContainer
         |-- PaintingForm
@@ -10,6 +11,13 @@ App
         |-- Searchbar
         |-- PaintingsList
               |-- PaintingListItem ...
+```
+
+#### Useful Links:
+- [Redux Flow](https://github.com/thuyanduong-flatiron/redux-thunk-starter-code/blob/master/redux-flow.pdf)
+- [Redux Thunk documentation](https://github.com/reduxjs/redux-thunk/blob/master/README.md)
+- [Redux Thunk source code](https://github.com/reduxjs/redux-thunk/blob/master/src/index.js)
+- [Dev Tools instructions](https://github.com/zalmoxisus/redux-devtools-extension)
 
 ## Overview
 
