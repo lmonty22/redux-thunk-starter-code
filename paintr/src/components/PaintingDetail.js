@@ -38,5 +38,5 @@ const mapStateToProps = (state, ownProps) => ({
 const mapDispatchToProps = dispatch => ({
   vote: (paintingId) => {dispatch(vote(paintingId))}
 })
-export default connect(mapStateToProps, mapDispatchToProps)(PaintingDetail);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(PaintingDetail));
 //export default connect(mapStateToProps, {vote})(PaintingDetail);
