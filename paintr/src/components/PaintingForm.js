@@ -83,5 +83,5 @@ const mapDispatchToProps = dispatch => ({
   updatePaintingInfo: (info) => {dispatch(updatePainting(info))}
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(PaintingForm);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(PaintingForm));
 //export default connect(mapStateToProps, {updatePaintingInfo: updatePainting})(PaintingForm);
